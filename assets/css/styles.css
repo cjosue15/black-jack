@@ -1,0 +1,112 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/fondo-mesa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    display: inline-block;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.black {
+    background: #fff;
+    color: #000;
+}
+
+.blue {
+    background: rgb(38, 38, 241);
+}
+
+.red {
+    background: rgb(221, 54, 54);
+}
+
+.black:disabled {
+    color: #000;
+}
+
+.blue:disabled {
+    background: rgba(38, 38, 241, 0.384);
+}
+
+.red:disabled {
+    background: rgba(221, 54, 54, 0.664);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 60px;
+    margin-left: -60px;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+    min-height: 180px;
+    margin: 2em 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

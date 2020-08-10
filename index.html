@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" /> -->
+    </head>
+    <body>
+        <div class="header">
+            <h1>Black Jack</h1>
+        </div>
+        <div class="button-container">
+            <button id="btnNuevo" class="mr-1 btn black show">Nuevo Juego</button>
+            <button id="btnPedir" class="mr-1 btn blue hide">Pedir Carta</button>
+            <button id="btnDetener" class="btn red hide">Detener</button>
+        </div>
+        <div class="container">
+            <div>
+                <h2>Jugador 1 - <small>0</small></h2>
+                <div id="jugador-cartas">
+                    <img class="carta" src="assets/cartas/grey_back.png" alt="" />
+                    <img class="carta" src="assets/cartas/grey_back.png" alt="" />
+                    <img class="carta" src="assets/cartas/grey_back.png" alt="" />
+                    <img class="carta" src="assets/cartas/grey_back.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h2>Computadora 1 - <small>0</small></h2>
+                <div id="computadora-cartas">
+                    <img class="carta" src="assets/cartas/red_back.png" alt="" />
+                    <img class="carta" src="assets/cartas/red_back.png" alt="" />
+                    <img class="carta" src="assets/cartas/red_back.png" alt="" />
+                    <img class="carta" src="assets/cartas/red_back.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/underscore.js"></script>
+        <script src="assets/js/juego.js"></script>
+    </body>
+</html>
