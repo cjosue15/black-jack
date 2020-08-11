@@ -4,7 +4,7 @@ body {
     color: #fff;
 }
 
-body {
+html {
     height: 100vh;
     background-image: url(../img/fondo-mesa.jpg);
     background-repeat: no-repeat;
